@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://google.com"
+    "baseUrl": "https://google.com",
+    "ignoreTestFiles": "cypress_api.spec.js"
 }
