@@ -1,4 +1,5 @@
 {
     "baseUrl": "https://google.com",
-    "ignoreTestFiles": "cypress_api.spec.js"
+    "ignoreTestFiles": ["/**/1*/**.js", "/**/2*/**.js"]
+
 }
