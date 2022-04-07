@@ -23,3 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('name', (overrides = {}) => { 
+   const username = Cypress.env('username')
+    cy.log(username)
+})
