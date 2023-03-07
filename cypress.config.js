@@ -10,5 +10,6 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://google.com',
     excludeSpecPattern: ['/**/1*/**.js', '/**/2*/**.js'],
+    experimentalStudio: true
   },
 })

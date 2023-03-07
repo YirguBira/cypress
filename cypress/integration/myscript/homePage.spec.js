@@ -1,10 +1,10 @@
 describe('user is on home page', () =>{
-    it('asserts user is on home page', () =>{
+    it('assert user is on home page', () =>{
         cy.name().should('equal',"YirguBira")
         cy.visit('/')
-        cy.get(':nth-child(1) > .gb_d').should("have.text", "Gmail")
+        cy.get('input.gNO89b').should("have.value", "Google Searc")
         cy.log({
-            test: 'end of test-1'
+            test: 'last of test-1'
         })
     })
 })

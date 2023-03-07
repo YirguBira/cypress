@@ -1,8 +1,11 @@
 describe('user is on home page', () =>{
-    it('assert user is on home page', () =>{
+    beforeEach(() => {
+        // cy.task('db:seed')
+    })
+    it('asserts user is on home page', () =>{
         cy.name().should('equal',"YirguBira")
         cy.visit('/')
-        cy.get('[value="Google Search"]').should("have.text", "Google Search")
+        cy.get('input.gNO89b').should("have.value", "Google Search")
         cy.log({
             test: 'end of test-1'
         })
