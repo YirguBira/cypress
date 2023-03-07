@@ -1,5 +1,0 @@
-{
-    "baseUrl": "https://google.com",
-    "ignoreTestFiles": ["/**/1*/**.js", "/**/2*/**.js"]
-
-}
